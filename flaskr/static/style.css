@@ -1,0 +1,49 @@
+html {
+    font-family: sans-serif;
+    background: #eee;
+    padding: 0 1rem;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background: white;
+}
+h1 {
+    font-family: serif;
+    color: #377ba8;
+    margin: auto;
+    padding: 3em;
+}
+a {
+    color: #377ba8;
+    text-decoration: none;
+}
+
+.launch-intro {
+    height: 25rem;
+    background-size: cover;
+}
+.content {
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: : 1em;
+    padding: 1em;
+    width: -webkit-fill-available;
+}
+.rocket-icon {
+    height: 5rem;
+    padding-right: 1rem;
+}
+.rocket-model {
+    min-width: 15em;
+}
+.section-title {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+}
+.youtube-link {
+    padding-left: 2em;
+}
