@@ -3,12 +3,12 @@ from os.path import exists
 
 class LaunchEntity:
     def __init__(self, data):
-        self.date = data['date_utc']
         self.id = data['id']
-        self.icon = data['id'] + '.png'
         self.model = data['name']
+        self.date = data['date_utc']
         self.success = data['success']
-        
+        self.icon = data['id'] + '.png'
+
         if data['links']['webcast']:
             self.webcast = data['links']['webcast']
             pass
